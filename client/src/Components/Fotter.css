@@ -1,0 +1,14 @@
+.container {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: grid;
+    }
+    
+    .link{
+        color: white;
+    }
+    
+    .link:hover{
+    color: white;
+    }

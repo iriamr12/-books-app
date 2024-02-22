@@ -1,0 +1,9 @@
+.books-container{
+    display: flex;
+    gap: 30px;
+}
+
+.book-set{
+    position: relative;
+    top: 20px
+}

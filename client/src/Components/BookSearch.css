@@ -1,0 +1,14 @@
+
+.form{
+    height: 200px;
+}
+
+.search{
+    width: 1000px;
+}
+
+.book-type{
+    position: relative;
+    left:0px;
+    right: 5px
+}

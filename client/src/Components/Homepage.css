@@ -1,0 +1,42 @@
+.Header{
+    width: 70%;
+    background-color: #ffc017;
+    height: 500px;
+    font-size: 30px;
+    color: black;
+}
+
+h1{
+  position: relative;
+  top: 60px;
+}
+
+/* Define a class for the button */
+.custom-button {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+    position: relative;
+    top: 270px;
+    right: 280px;
+    font-size: 15px;
+    }
+  
+  /* Style the button on hover */
+  .custom-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* Import Playfair Display font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
+
+/* Use Playfair Display font */
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+  
