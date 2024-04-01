@@ -47,6 +47,13 @@ const login = async (user) => {
     console.log('Favorite books:', favoriteBooks);
   };
 
+  const removeFromFavorites = (itemToRemove) => {
+   // Filter out the item to remove
+   const updatedFavorites = favoriteBooks.filter(item => item !== itemToRemove);
+   // Update the favorites state with the filtered list
+   setFavoriteBooks(updatedFavorites);
+ };
+
 
   useEffect(() => {
    // Check local storage or any other mechanism to determine if the user is logged in
@@ -64,6 +71,7 @@ const login = async (user) => {
     registration,
     addToFavorites,
     favoriteBooks,
+    removeFromFavorites,
  }
  return (
     <authContext.Provider value={authContextValue}>

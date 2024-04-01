@@ -16,7 +16,7 @@ const Type = () => {
     const fetchData = async () => {
       try {
         // Fetch education books
-        const educationResponse = await fetch(`https://www.googleapis.com/books/v1/volumes?q=travel&key=${API_KEY}&maxResults=${maxResults}`);
+        const educationResponse = await fetch(`https://www.googleapis.com/books/v1/volumes?q=traveleurope&key=${API_KEY}&maxResults=${maxResults}`);
         const educationData = await educationResponse.json();
         setTravelBooks(educationData.items);
 

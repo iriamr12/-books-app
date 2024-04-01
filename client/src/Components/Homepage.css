@@ -1,7 +1,7 @@
 .Header{
     width: 70%;
     background-color: #ffc017;
-    height: 500px;
+    height: 400px;
     font-size: 30px;
     color: black;
 }
@@ -20,8 +20,8 @@ h1{
     border-radius: 15px; /* Add border radius */
     cursor: pointer; /* Add cursor pointer */
     position: relative;
-    top: 270px;
-    right: 280px;
+    top: 200px;
+    right: 230px;
     font-size: 15px;
     }
   
